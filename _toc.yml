@@ -1,0 +1,34 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+#
+
+- file: docs/intro
+
+- part: Introduksjonskurs i Python
+  chapters:
+  - file: docs/helloWorld
+  - file: docs/variabler
+  - file: docs/kontrollstrukturer
+  - file: docs/funksjoner
+  - file: docs/moduler_og_biblioteker
+  - file: docs/tegne_grafer
+  - file: docs/kodekommentarer
+
+- part: Numerisk matematikk
+  chapters:
+  - file: docs/derivasjon
+  - file: docs/integrasjon
+  - file: docs/euler
+
+- part: Oppgaver
+  chapters:
+  - file: docs/stigespill
+  - file: docs/terningkast
+  - file: docs/fakultet
+  - file: docs/projecteuler
+  - file: docs/andregrad
+
+- part: Om skolekoden
+  chapters:
+    - file: docs/CONTRIBUTING
+    - file: docs/CODE_OF_CONDUCT
