@@ -22,11 +22,11 @@
 
 - part: Oppgaver
   chapters:
-  - file: docs/stigespill
-  - file: docs/terningkast
-  - file: docs/fakultet
-  - file: docs/projecteuler
-  - file: docs/andregrad
+  - file: docs/oppgaver/stigespill
+  - file: docs/oppgaver/terningkast
+  - file: docs/oppgaver/fakultet
+  - file: docs/oppgaver/projecteuler
+  - file: docs/oppgaver/andregrad
 
 - part: Om skolekoden
   chapters:
