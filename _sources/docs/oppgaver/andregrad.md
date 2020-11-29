@@ -4,7 +4,7 @@
 
 En andregradslikning på formen:
 
-$$x=\frac{-b\pm \sqrt{b^2 - 4ac}}{2a}$$
+$$ax^2 + bx +c = 0$$
 
 kan ha to, en eller ingen løsninger. Lag et program som ber brukeren om å taste inn faktorene a, b og c og så skriver ut løsningen(e) hvis de finnes.
 
