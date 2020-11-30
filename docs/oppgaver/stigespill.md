@@ -4,17 +4,8 @@ Stigespill er et brettspill hvor målet er å komme seg fra starten til slutten 
 
 ## Spillebrett og regler
 
-<figure>
-    <img src="./img/stigespill_brett.png" alt="Spillebrett" width="600"/>
-    <figcaption>Spillebrettet til stigespillet. Bilde tatt av <a href="https://github.com/fuzzbin">fuzzbin</a></figcaption>
-</figure>
-
-<br>
-
-<figure>
-    <img src="./img/stigespill_regler.png" alt="Spillebrett" width="400"/>
-    <figcaption>Reglene til stigespillet. Bilde tatt av <a href="https://github.com/fuzzbin">fuzzbin</a></figcaption>
-</figure>
+![stigespill](./img/stigespill_brett.png)
+![Regler](./img/stigespill_regler.png)
 
 ## Oppgave
 Hvor mange kast kan man forvente å bruke for å komme i mål på stigespillet?
