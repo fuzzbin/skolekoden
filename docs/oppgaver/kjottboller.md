@@ -11,7 +11,7 @@ Tredje akt er viktig. Dette er selve crescendioet! Har man jobbet hardt og ståt
 Vis filmen. Den kan godt vises flere ganger. Ikke gi noen føringer. Hva tenker elevene når de ser denne. Kanskje lurer elevene på noe som gjør at oppgaven får en ny og interessant vinkling. Fokuser på riktig bruk av begreper.
 
 <br>
-<video width="50%" src="/devnull/media/kjottboller/Act1/meatballs-act1.mov" controls></video>
+<video width="50%" src="./img/kjottboller/Act1/meatballs-act1.mov" controls></video>
 <br>
 
 Skriv ned spøsmål som elevene kommer med. Kom gjerne med oppfølgingsspørsmål for å drive klassen videre.
@@ -29,19 +29,19 @@ Det viktigste i andre akt er at elevene skal komme fram til hva de trenger av in
 
 Eksempler på informasjon som kan deles ut:
 
-<img src="/devnull/media/kjottboller/Act2/empty-height.jpg"  width="50%">
-<br>Høyde
+Høyde
+![Høyde](./img/kjottboller/Act2/empty-height.jpg =200x)
 
 
-<img src="/devnull/media/kjottboller/Act2/meatball-diameter.jpg" width="50%">
+<img src="./img/kjottboller/Act2/meatball-diameter.jpg" width="50%">
 <br>Kjøttbollediameter
 
 
-<img src="/devnull/media/kjottboller/Act2/pot-diameter.jpg" width="50%">
+<img src="./img//kjottboller/Act2/pot-diameter.jpg" width="50%">
 <br>Grytediameter
 
 
-<img src="/devnull/media/kjottboller/Act2/meatballs-number.jpg" width="50%">
+<img src="./img/kjottboller/Act2/meatballs-number.jpg" width="50%">
 <br>Antall
 
 
@@ -49,7 +49,7 @@ Eksempler på informasjon som kan deles ut:
 
 Dette er det store øyeblikket. Vi skal nå sjekke om våre beregninger stemmer!
 <br>
-<video width="50%" src="/devnull/media/kjottboller/Act3/meatballs-act3.mov" controls></video>
+<video width="50%" src="./img/kjottboller/Act3/meatballs-act3.mov" controls></video>
 <br>
 
 
