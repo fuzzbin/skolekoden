@@ -27,6 +27,7 @@
   - file: docs/oppgaver/fakultet
   - file: docs/oppgaver/projecteuler
   - file: docs/oppgaver/andregrad
+  - file: docs/oppgaver/kjottboller
 
 - part: Om skolekoden
   chapters:
