@@ -29,21 +29,17 @@ Det viktigste i andre akt er at elevene skal komme fram til hva de trenger av in
 
 Eksempler på informasjon som kan deles ut:
 
-Høyde
-![Høyde](./img/kjottboller/Act2/empty-height.jpg =200x)
+Høyde:
+![Høyde](./img/kjottboller/Act2/empty-height.jpg)
 
+Diameter på kjøttbollene:
+![Høyde](./img/kjottboller/Act2/meatball-diameter.jpg)
 
-<img src="./img/kjottboller/Act2/meatball-diameter.jpg" width="50%">
-<br>Kjøttbollediameter
+Diameter på gryta
+![Diameter](./img//kjottboller/Act2/pot-diameter.jpg)
 
-
-<img src="./img//kjottboller/Act2/pot-diameter.jpg" width="50%">
-<br>Grytediameter
-
-
-<img src="./img/kjottboller/Act2/meatballs-number.jpg" width="50%">
-<br>Antall
-
+Antall kjøttboller:
+![Diameter](./img/kjottboller/Act2/meatballs-number.jpg)
 
 **Tredje akt**
 
