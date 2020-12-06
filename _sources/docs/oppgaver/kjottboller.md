@@ -30,7 +30,7 @@ Det viktigste i andre akt er at elevene skal komme fram til hva de trenger av in
 Eksempler på informasjon som kan deles ut:
 
 Høyde
-![Høyde](./img/kjottboller/Act2/empty-height.jpg =200x)
+![Høyde](./img/kjottboller/Act2/empty-height.jpg)
 
 
 <img src="./img/kjottboller/Act2/meatball-diameter.jpg" width="50%">
