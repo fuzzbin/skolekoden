@@ -42,9 +42,8 @@ Antall kjøttboller:
 **Tredje akt**
 
 Dette er det store øyeblikket. Vi skal nå sjekke om våre beregninger stemmer!
-<br>
-<video width="50%" src="./img/kjottboller/Act3/meatballs-act3.mov" controls></video>
-<br>
+
+[Film med svaret på oppgaven](https://101qs-media.s3.amazonaws.com/videos/_1308_the-answer.mp4)
 
 
 Oppgaven er laget av [Dan Meyer](http://www.101qs.com/2352-meatballs), og tilpasset til norsk av Tom Jarle Christiansen, lisens CC-BY 3.0
