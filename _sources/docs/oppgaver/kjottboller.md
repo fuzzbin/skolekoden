@@ -8,12 +8,11 @@ Tredje akt er viktig. Dette er selve crescendioet! Har man jobbet hardt og ståt
 
 **Første akt**
 
-Vis filmen. Den kan godt vises flere ganger. Ikke gi noen føringer. Hva tenker elevene når de ser denne. Kanskje lurer elevene på noe som gjør at oppgaven får en ny og interessant vinkling. Fokuser på riktig bruk av begreper.
+Begynn opplegget med å vise en [introduksjonsfilm](https://101qs-media.s3.amazonaws.com/videos/2352-meatballs.mp4). Den kan godt vises flere ganger. Ikke gi noen føringer. Hva tenker elevene når de ser denne. Kanskje lurer elevene på noe som gjør at oppgaven får en ny og interessant vinkling. Fokuser på riktig bruk av begreper.
 
-[Introfilm](https://101qs-media.s3.amazonaws.com/videos/2352-meatballs.mp4)
+*[Lenke til filmen](https://101qs-media.s3.amazonaws.com/videos/2352-meatballs.mp4)*
 
 Skriv ned spøsmål som elevene kommer med. Kom gjerne med oppfølgingsspørsmål for å drive klassen videre.
-
 - Vil det renne over?
 - Hvor mange kjøttboller skal til før det renner over?
 - Hvor mange kjøttboller får det garantert til å flyte over?
@@ -41,7 +40,7 @@ Antall kjøttboller:
 
 **Tredje akt**
 
-Dette er det store øyeblikket. Vi skal nå sjekke om våre beregninger stemmer!
+Dette er det store øyeblikket. Vi skal nå sjekke om våre beregninger stemmer! Se filmen sammen med elevene og evaluer alle svarene.
 
 [Film med svaret på oppgaven](https://101qs-media.s3.amazonaws.com/videos/_1308_the-answer.mp4)
 
