@@ -10,7 +10,7 @@ Tredje akt er viktig. Dette er selve crescendioet! Har man jobbet hardt og ståt
 
 Vis filmen. Den kan godt vises flere ganger. Ikke gi noen føringer. Hva tenker elevene når de ser denne. Kanskje lurer elevene på noe som gjør at oppgaven får en ny og interessant vinkling. Fokuser på riktig bruk av begreper.
 
-![Introfilm](https://101qs-media.s3.amazonaws.com/videos/2352-meatballs.mp4)
+[Introfilm](https://101qs-media.s3.amazonaws.com/videos/2352-meatballs.mp4)
 
 Skriv ned spøsmål som elevene kommer med. Kom gjerne med oppfølgingsspørsmål for å drive klassen videre.
 
