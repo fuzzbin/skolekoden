@@ -379,14 +379,13 @@
 <p><strong><a class="reference external" href="https://snl.no/integralregning">Integralregning</a> er en matematisk operasjon som utføres på en matematisk funksjon. Tenk deg at vi har en kurve  <span class="math notranslate nohighlight">\(y=f(x)\)</span> og to ordinater <span class="math notranslate nohighlight">\(x = a\)</span> og <span class="math notranslate nohighlight">\(x = b\)</span>. Matematisk svarer beregning av flateinnholdet <span class="math notranslate nohighlight">\(S\)</span> til integrasjon. Det arealet <span class="math notranslate nohighlight">\(S\)</span> som begrenses av x-aksen, kurven og de to ordinatene, er gitt ved et bestemt integral. Dette kan skrives som:</strong></p>
 <div class="math notranslate nohighlight">
 \[ S = \int_{a}^{b} f(x) dx \]</div>
-<blockquote>
-<div><p>Denne siden dekker helt eller delvis kompetansemålene: <a class="reference external" href="https://github.com/fagstoff/ProgMod/blob/master/L%C3%A6replan/kompetansem%C3%A5l.md#matematiske-metoder">Matematiske metoder 1, 4 og 5</a></p>
-</div></blockquote>
 <div class="section" id="numerisk-beregning-av-arealet-under-en-funksjon">
 <h2>Numerisk beregning av arealet under en funksjon<a class="headerlink" href="#numerisk-beregning-av-arealet-under-en-funksjon" title="Permalink to this headline">¶</a></h2>
 <p>Arealet under en funksjon kan ha mange betydninger. I fysikk er for eksempel arealet under en fartsgraf <span class="math notranslate nohighlight">\(v(t)\)</span> det samme som tilbakelagt strekning.</p>
 <p>For å finne arealet under en funksjon uten å integrere kan vi bruke en teknikk hvor vi lager mange rektangler med en fast bredde. Høyden på hvert enkelt rektangel tilsvarer funksjonsverdien.</p>
 <p>Hvis vi summerer arealet av alle rektanglene får vi en ganske god tilnærming av totalarealet under funksjonen. Hvis vi gjør bredden på hvert enkelt rektangel mindre får vi en bedre tilnærming.</p>
+<p><img alt="Riemannsum" src="../../_images/Riemannsum.gif" /></p>
+<p>Når vi deler inn arealet under en funksjon på denne måten kalles det en Riemansum. Denne skrives slik: $<span class="math notranslate nohighlight">\(S = \sum_{n=0}^n f(x_n) \cdot \Delta x\)</span>$</p>
 <img alt="Opphavsmann: Mestigoit Lisens: Creative Commons Attribution-Share Alike 3.0 Unported" style="width: 200px; margin-left: 30px;" src="img/Riemannsum_left.gif">
 <p>By <a href="//commons.wikimedia.org/wiki/User:09glasgow09" title="User:09glasgow09">09glasgow09</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=7697902">Link</a></p>
 <p>Når vi deler inn arealet under en funksjon på denne måten kalles det en Riemansum. Denne skrives slik: $<span class="math notranslate nohighlight">\(S = \sum_{n=0}^n f(x_n) \cdot \Delta x\)</span>$</p>
@@ -420,7 +419,7 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/integrasjon_5_0.png" src="../../_images/integrasjon_5_0.png" />
+<img alt="../../_images/integrasjon_4_0.png" src="../../_images/integrasjon_4_0.png" />
 </div>
 </div>
 <p>Vi skal nå lage rektangler på samme måte som forklart ovenfor. Vi bruker denne koden:</p>
