@@ -6,19 +6,19 @@
 
 - part: Introduksjonskurs i Python
   chapters:
-  - file: docs/helloWorld
-  - file: docs/variabler
-  - file: docs/kontrollstrukturer
-  - file: docs/funksjoner
-  - file: docs/moduler_og_biblioteker
-  - file: docs/tegne_grafer
-  - file: docs/kodekommentarer
+  - file: docs/pythonkurs/helloWorld
+  - file: docs/pythonkurs/variabler
+  - file: docs/pythonkurs/kontrollstrukturer
+  - file: docs/pythonkurs/funksjoner
+  - file: docs/pythonkurs/moduler_og_biblioteker
+  - file: docs/pythonkurs/tegne_grafer
+  - file: docs/pythonkurs/kodekommentarer
 
 - part: Numerisk matematikk
   chapters:
-  - file: docs/derivasjon
-  - file: docs/integrasjon
-  - file: docs/euler
+  - file: docs/pythonkurs/derivasjon
+  - file: docs/pythonkurs/integrasjon
+  - file: docs/pythonkurs/euler
 
 - part: Oppgaver
   chapters:
