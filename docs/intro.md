@@ -12,5 +12,5 @@ Prosjektet ble startet høsten 2018 av [fuzzbin](https://github.com/fuzzbin) og 
 Alt innhold er lisensiert med [Creative Commons 4.0 - BY SA](https://creativecommons.org/licenses/by-sa/4.0/deed.no).
 
 ## Slik kan du bidra
-Alle som ønsker inviteres til å bidra. Dette kan både gjøres ved å legge inn forslag, tips, feilmeldinger, ønsker eller andre kommentarer under [issues](https://github.com/fagstoff/Skolekoden/issues). Les mer om hvordan du kan bidra med innholdsproduksjon under [CONTRIBUTING](CONTRIBUTING.md). Alle bidrag skal være i henhold til våre [etiske retningslinjer](CODE_OF_CONDUCT.md)
+Alle som ønsker inviteres til å bidra. Dette kan både gjøres ved å legge inn forslag, tips, feilmeldinger, ønsker eller andre kommentarer under [issues](https://github.com/fagstoff/Skolekoden/issues). Du er også velkommen til å bidra med innhold. Les mer om hvordan du kan bidra med innholdsproduksjon under: [Slik kan du bidra](CONTRIBUTING.md). Alle bidrag og aktiviteter må følge våre [etiske retningslinjer (engelsk)](CODE_OF_CONDUCT.md)
 

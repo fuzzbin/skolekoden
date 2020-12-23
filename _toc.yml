@@ -6,13 +6,15 @@
 
 - part: Introduksjonskurs i Python
   chapters:
-  - file: docs/pythonkurs/helloWorld
-  - file: docs/pythonkurs/variabler
-  - file: docs/pythonkurs/kontrollstrukturer
-  - file: docs/pythonkurs/funksjoner
-  - file: docs/pythonkurs/moduler_og_biblioteker
-  - file: docs/pythonkurs/tegne_grafer
-  - file: docs/pythonkurs/kodekommentarer
+  - file: docs/pythonkurs/pythonindex
+    sections:
+      - file: docs/pythonkurs/helloWorld
+      - file: docs/pythonkurs/variabler
+      - file: docs/pythonkurs/kontrollstrukturer
+      - file: docs/pythonkurs/funksjoner
+      - file: docs/pythonkurs/moduler_og_biblioteker
+      - file: docs/pythonkurs/tegne_grafer
+      - file: docs/pythonkurs/kodekommentarer
 
 - part: Numerisk matematikk
   chapters:
