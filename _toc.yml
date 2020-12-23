@@ -4,7 +4,7 @@
 
 - file: docs/intro
 
-- part: Introduksjonskurs i Python
+- part: Pythonressurser
   chapters:
   - file: docs/pythonkurs/pythonindex
     sections:
@@ -15,12 +15,11 @@
       - file: docs/pythonkurs/moduler_og_biblioteker
       - file: docs/pythonkurs/tegne_grafer
       - file: docs/pythonkurs/kodekommentarer
-
-- part: Numerisk matematikk
-  chapters:
-  - file: docs/pythonkurs/derivasjon
-  - file: docs/pythonkurs/integrasjon
-  - file: docs/pythonkurs/euler
+  - file: docs/pythonkurs/numeriskindex
+    sections:
+      - file: docs/pythonkurs/derivasjon
+      - file: docs/pythonkurs/integrasjon
+      - file: docs/pythonkurs/euler
 
 - part: Oppgaver
   chapters:
