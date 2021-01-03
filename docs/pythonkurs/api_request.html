@@ -355,7 +355,8 @@
 <p><strong>Creative Commons BY-SA : bitjungle (Rune Mathisen) og fuzzbin (Tom Jarle Christiansen)</strong></p>
 <hr/>
 <p><strong>For å få tilgang til data brukes et programmeringsgrensesnitt. Den vanligste forkortelsen for dette er API som betyr Aplication programming interface. Typiske bruksområder for et API er for å gi brukere og utviklere tilgang til spesifikke data i en organisasjon eller applikasjon.</strong></p>
-<p>Det finnes mange typer data som kan hentes ut ved hjelp av et API.De vanligste formatene er JSON, CSV og XML. Dette er ulike måter å organisere data på. Python har god støtte for å jobbe med de fleste ulike dataformater.</p>
+<p>Det finnes veldig mange typer data som kan hentes ut ved hjelp av et API. Dataene kommer på litt ulike formater. De vanligste er JSON, CSV og XML. Dette er ulike måter å organisere data på. Python har god støtte for å jobbe med de fleste ulike dataformater.</p>
+<p>Eksemplene under henter data om den internasjonale romstasjonen (ISS) fra tjenesten <a class="reference external" href="http://open-notify.org/">opennotify.org</a> på dataformatet JSON ved hjelp av pythonbiblioteket requests.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
@@ -369,9 +370,9 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;iss_position&#39;: {&#39;latitude&#39;: &#39;25.9131&#39;, &#39;longitude&#39;: &#39;-164.1678&#39;},
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;iss_position&#39;: {&#39;latitude&#39;: &#39;-29.0556&#39;, &#39;longitude&#39;: &#39;128.2301&#39;},
  &#39;message&#39;: &#39;success&#39;,
- &#39;timestamp&#39;: 1609670664}
+ &#39;timestamp&#39;: 1609675120}
 </pre></div>
 </div>
 </div>
@@ -384,8 +385,8 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Lengdegrad: -164.1678
-Breddegrad: 25.9131
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Lengdegrad: 128.2301
+Breddegrad: -29.0556
 </pre></div>
 </div>
 </div>
