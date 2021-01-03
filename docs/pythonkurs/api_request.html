@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>API - Aplication programming interface &#8212; Skolekoden</title>
+    <title>API - Programmeringsgrensesnitt &#8212; Skolekoden</title>
     
   <link rel="stylesheet" href="../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -175,7 +175,7 @@
   <ul class="current collapse-ul">
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     API - Aplication programming interface
+     API - Programmeringsgrensesnitt
     </a>
    </li>
   </ul>
@@ -321,6 +321,23 @@
 
         <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/docs/pythonkurs/api_request.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
     </div>
 
     <!-- Table of contents -->
@@ -333,9 +350,46 @@
         
               <div>
                 
-  <div class="section" id="api-aplication-programming-interface">
-<h1>API - Aplication programming interface<a class="headerlink" href="#api-aplication-programming-interface" title="Permalink to this headline">¶</a></h1>
-<p>Her komme tekst og eksempler om API og datasett</p>
+  <div class="section" id="api-programmeringsgrensesnitt">
+<h1>API - Programmeringsgrensesnitt<a class="headerlink" href="#api-programmeringsgrensesnitt" title="Permalink to this headline">¶</a></h1>
+<p><strong>Creative Commons BY-SA : bitjungle (Rune Mathisen) og fuzzbin (Tom Jarle Christiansen)</strong></p>
+<hr/>
+<p><strong>For å få tilgang til data brukes et programmeringsgrensesnitt. Den vanligste forkortelsen for dette er API som betyr Aplication programming interface. Typiske bruksområder for et API er for å gi brukere og utviklere tilgang til spesifikke data i en organisasjon eller applikasjon.</strong></p>
+<p>Det finnes mange typer data som kan hentes ut ved hjelp av et API.De vanligste formatene er JSON, CSV og XML. Dette er ulike måter å organisere data på. Python har god støtte for å jobbe med de fleste ulike dataformater.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span> <span class="c1">#Prettyprint for penere utskrift av JSON</span>
+
+<span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;http://api.open-notify.org/iss-now.json&quot;</span>
+<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+
+<span class="n">pprint</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;iss_position&#39;: {&#39;latitude&#39;: &#39;25.9131&#39;, &#39;longitude&#39;: &#39;-164.1678&#39;},
+ &#39;message&#39;: &#39;success&#39;,
+ &#39;timestamp&#39;: 1609670664}
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Lengdegrad:&quot;</span><span class="p">,</span> <span class="nb">float</span><span class="p">(</span><span class="n">r</span><span class="p">[</span><span class="s2">&quot;iss_position&quot;</span><span class="p">][</span><span class="s2">&quot;longitude&quot;</span><span class="p">]))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Breddegrad:&quot;</span><span class="p">,</span> <span class="nb">float</span><span class="p">(</span><span class="n">r</span><span class="p">[</span><span class="s2">&quot;iss_position&quot;</span><span class="p">][</span><span class="s2">&quot;latitude&quot;</span><span class="p">]))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Lengdegrad: -164.1678
+Breddegrad: 25.9131
+</pre></div>
+</div>
+</div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
