@@ -343,6 +343,20 @@
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
         
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#endepunkter">
+   Endepunkter
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
     </div>
 </div>
     <div id="main-content" class="row">
@@ -356,7 +370,7 @@
 <hr/>
 <p><strong>For å få tilgang til data brukes et programmeringsgrensesnitt. Den vanligste forkortelsen for dette er API som betyr Aplication programming interface. Typiske bruksområder for et API er for å gi brukere og utviklere tilgang til spesifikke data i en organisasjon eller applikasjon.</strong></p>
 <p>Det finnes veldig mange typer data som kan hentes ut ved hjelp av et API. Dataene kommer på litt ulike formater. De vanligste er JSON, CSV og XML. Dette er ulike måter å organisere data på. Python har god støtte for å jobbe med de fleste ulike dataformater.</p>
-<p>Eksemplene under henter data om den internasjonale romstasjonen (ISS) fra tjenesten <a class="reference external" href="http://open-notify.org/">opennotify.org</a> på dataformatet JSON ved hjelp av pythonbiblioteket requests.</p>
+<p>Følgende eksempel henter data om den internasjonale romstasjonen (ISS) fra tjenesten <a class="reference external" href="http://open-notify.org/">opennotify.org</a> på dataformatet JSON ved hjelp av pythonbiblioteket requests.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
@@ -370,9 +384,9 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;iss_position&#39;: {&#39;latitude&#39;: &#39;37.4864&#39;, &#39;longitude&#39;: &#39;-144.5800&#39;},
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;iss_position&#39;: {&#39;latitude&#39;: &#39;-4.5013&#39;, &#39;longitude&#39;: &#39;-10.6728&#39;},
  &#39;message&#39;: &#39;success&#39;,
- &#39;timestamp&#39;: 1609754525}
+ &#39;timestamp&#39;: 1609798234}
 </pre></div>
 </div>
 </div>
@@ -387,10 +401,44 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Tidsmerke: 1609754525
-Lengdegrad: -144.58
-Breddegrad: 37.4864
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Tidsmerke: 1609798234
+Lengdegrad: -10.6728
+Breddegrad: -4.5013
 </pre></div>
+</div>
+</div>
+</div>
+<p>Biblioteket <a class="reference external" href="https://requests.readthedocs.io/en/master/">requests</a> har veldig mange mulgiheter. Det anbefales å lese litt på dokumentasjonen og prøve noen av mulighetene.</p>
+<div class="section" id="endepunkter">
+<h2>Endepunkter<a class="headerlink" href="#endepunkter" title="Permalink to this headline">¶</a></h2>
+<p>En vanlig måte å få tilgang til data ved hjelp av et API på er å bruke det som kalles endepunkter. Et endepunkt er en URL der man kan endre parameter for å få ønskede data.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">payload</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;results&#39;</span><span class="p">:</span> <span class="mi">10</span><span class="p">}</span> <span class="c1"># API-parameter. Returner 10 resultat</span>
+
+<span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://randomuser.me/api/&#39;</span> <span class="c1"># Endepunkt med parameter</span>
+<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">payload</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+
+<span class="c1"># pprint(r[&#39;results&#39;][0][&#39;name&#39;])</span>
+
+<span class="k">for</span> <span class="n">person</span> <span class="ow">in</span> <span class="n">r</span><span class="p">[</span><span class="s1">&#39;results&#39;</span><span class="p">]:</span>
+    <span class="n">pprint</span><span class="p">(</span><span class="n">person</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;first&#39;: &#39;Buse&#39;, &#39;last&#39;: &#39;Polat&#39;, &#39;title&#39;: &#39;Miss&#39;}
+{&#39;first&#39;: &#39;Betti&#39;, &#39;last&#39;: &#39;Obermaier&#39;, &#39;title&#39;: &#39;Ms&#39;}
+{&#39;first&#39;: &#39;Roger&#39;, &#39;last&#39;: &#39;Sullivan&#39;, &#39;title&#39;: &#39;Mr&#39;}
+{&#39;first&#39;: &#39;Yolanda&#39;, &#39;last&#39;: &#39;Green&#39;, &#39;title&#39;: &#39;Mrs&#39;}
+{&#39;first&#39;: &#39;Albert&#39;, &#39;last&#39;: &#39;Madsen&#39;, &#39;title&#39;: &#39;Mr&#39;}
+{&#39;first&#39;: &#39;Melike&#39;, &#39;last&#39;: &#39;Nebioğlu&#39;, &#39;title&#39;: &#39;Ms&#39;}
+{&#39;first&#39;: &#39;Alexander&#39;, &#39;last&#39;: &#39;Mortensen&#39;, &#39;title&#39;: &#39;Mr&#39;}
+{&#39;first&#39;: &#39;Liv&#39;, &#39;last&#39;: &#39;Juul&#39;, &#39;title&#39;: &#39;Ms&#39;}
+{&#39;first&#39;: &#39;Fred&#39;, &#39;last&#39;: &#39;Mitchell&#39;, &#39;title&#39;: &#39;Mr&#39;}
+{&#39;first&#39;: &#39;Sofie&#39;, &#39;last&#39;: &#39;Poulsen&#39;, &#39;title&#39;: &#39;Mrs&#39;}
+</pre></div>
+</div>
 </div>
 </div>
 </div>
