@@ -20,6 +20,9 @@
       - file: docs/pythonkurs/derivasjon
       - file: docs/pythonkurs/integrasjon
       - file: docs/pythonkurs/euler
+  - file: docs/pythonkurs/apiindex
+    sections:
+      - file: docs/pythonkurs/api_request
 
 - part: Oppgaver
   chapters:
