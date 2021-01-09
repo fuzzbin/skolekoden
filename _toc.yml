@@ -6,23 +6,23 @@
 
 - part: Pythonressurser
   chapters:
-  - file: docs/pythonkurs/pythonindex
+  - file: docs/pythonressurser/pythonindex
     sections:
-      - file: docs/pythonkurs/helloWorld
-      - file: docs/pythonkurs/variabler
-      - file: docs/pythonkurs/kontrollstrukturer
-      - file: docs/pythonkurs/funksjoner
-      - file: docs/pythonkurs/moduler_og_biblioteker
-      - file: docs/pythonkurs/tegne_grafer
-      - file: docs/pythonkurs/kodekommentarer
-  - file: docs/pythonkurs/numeriskindex
+      - file: docs/pythonressurser/helloWorld
+      - file: docs/pythonressurser/variabler
+      - file: docs/pythonressurser/kontrollstrukturer
+      - file: docs/pythonressurser/funksjoner
+      - file: docs/pythonressurser/moduler_og_biblioteker
+      - file: docs/pythonressurser/tegne_grafer
+      - file: docs/pythonressurser/kodekommentarer
+  - file: docs/pythonressurser/numeriskindex
     sections:
-      - file: docs/pythonkurs/derivasjon
-      - file: docs/pythonkurs/integrasjon
-      - file: docs/pythonkurs/euler
-  - file: docs/pythonkurs/apiindex
+      - file: docs/pythonressurser/derivasjon
+      - file: docs/pythonressurser/integrasjon
+      - file: docs/pythonressurser/euler
+  - file: docs/pythonressurser/apiindex
     sections:
-      - file: docs/pythonkurs/api_request
+      - file: docs/pythonressurser/api_request
 
 - part: Oppgaver
   chapters:
