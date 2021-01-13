@@ -10,9 +10,8 @@ Tredje akt er viktig. Dette er selve crescendioet! Har man jobbet hardt og ståt
 
 Vis filmen. Den kan godt vises flere ganger. Ikke gi noen føringer. Hva tenker elevene når de ser denne. Kanskje lurer elevene på noe som gjør at oppgaven får en ny og interessant vinkling. Fokuser på riktig bruk av begreper.
 
-<br>
-<video src="./img/kjottboller/Act1/meatballs-act1.mov" controls></video>
-<br>
+<iframe src="https://player.vimeo.com/video/70264988" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/70264988">Meatballs &ndash;&nbsp;Act One</a> from <a href="https://vimeo.com/ddmeyer">Dan Meyer</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 Skriv ned spøsmål som elevene kommer med. Kom gjerne med oppfølgingsspørsmål for å drive klassen videre.
 
