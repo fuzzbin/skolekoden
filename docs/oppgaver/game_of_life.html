@@ -329,21 +329,6 @@
    Oppgave
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ressurser">
-   Ressurser
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#vurderingskriterier">
-   Vurderingskriterier
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#kompetansemal">
-   Kompetansemål
-  </a>
- </li>
 </ul>
 
         </nav>
@@ -358,30 +343,18 @@
                 
   <div class="section" id="conway-s-game-of-life">
 <h1>Conway’s Game of Life<a class="headerlink" href="#conway-s-game-of-life" title="Permalink to this headline">¶</a></h1>
+<p>John Horton Conway var en britisk/amerikansk matematiker. Han er mest kjent som oppfinner av spillet Game of Life.</p>
+<p><img alt="stigespill" src="../../_images/Conway_glidere.gif" /></p>
+<p>Spillet består av et stort rutenett. En rute kalles også en celle. Cellene kan ha to tilstander, enten opplyste (levende) eller tomme (døde). Hver celle har kontakt med de åtte cellene som omslutter den. For hvert tidsskritt skal følgende regler følges:</p>
+<ul class="simple">
+<li><p>Alle levende celler med færre enn to levende naboceller dør av enshomhet</p></li>
+<li><p>Alle levende celler med to eller tre naboer fortsetter å leve til neste generasjon</p></li>
+<li><p>Alle levende celler med flere enn tre naboer dør på grunn av overbefolkning</p></li>
+<li><p>Alle døde celler med nøyaktig tre naboer blir levende som ved reproduksjon</p></li>
+</ul>
 <div class="section" id="oppgave">
 <h2>Oppgave<a class="headerlink" href="#oppgave" title="Permalink to this headline">¶</a></h2>
-<p>The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.[1] It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine.</p>
-</div>
-<div class="section" id="ressurser">
-<h2>Ressurser<a class="headerlink" href="#ressurser" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Du trenger en kodeeditor og Python til denne oppgaven.</p></li>
-</ul>
-</div>
-<div class="section" id="vurderingskriterier">
-<h2>Vurderingskriterier<a class="headerlink" href="#vurderingskriterier" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Programmet skal kjøre uten feil og advarsler.</p></li>
-<li><p>Det skal komme klart frem av programkode og kommentarer hvordan du har løst problemet.</p></li>
-</ul>
-</div>
-<div class="section" id="kompetansemal">
-<h2>Kompetansemål<a class="headerlink" href="#kompetansemal" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>omgjøre problemstillinger til konkrete delproblemer, vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger for disse</p></li>
-<li><p>bruke grunnleggende programmering som variabler, datatyper, løkker, tester, plotting, tilfeldige tall, funksjoner og enkel brukerinteraksjon</p></li>
-<li><p>lage strukturerte og oversiktlige programmer med hensiktsmessige kommentarer</p></li>
-</ul>
+<p>Lag en simulering som viser hvordan starttilstanden utvikler seg over tid.</p>
 <hr class="docutils" />
 <p><em>Denne oppgaven er laget av <a class="reference external" href="https://github.com/fuzzbin">fuzzbin</a> og <a class="reference external" href="https://github.com/bitjungle">bitjungle</a>. Oppgaven er lisensiert under en <a class="reference external" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.</a></em></p>
 </div>
