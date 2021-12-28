@@ -374,6 +374,11 @@
    Oppgave 2
   </a>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#oppgave-3">
+   Oppgave 3
+  </a>
+ </li>
 </ul>
 
         </nav>
@@ -432,6 +437,26 @@ c) Avgjør om noen av vektorene er parallelle</p>
 \end{align}
 \end{split}\]</div>
 <p>Absoluttverdien av alle y-komponentene er ulike. Det betyr at ingen av vektorene er parallelle.</p>
+</div>
+<div class="section" id="oppgave-3">
+<h2>Oppgave 3<a class="headerlink" href="#oppgave-3" title="Permalink to this headline">¶</a></h2>
+<p>I denne oppgaven har eleven definert funksjonen: <span class="math notranslate nohighlight">\(f(x)=\frac{x}{1+x^2}\)</span> og variablene <span class="math notranslate nohighlight">\(h=0.0001\)</span> og <span class="math notranslate nohighlight">\(x=0\)</span></p>
+<p>Løsning:</p>
+<p>Oppgave a)</p>
+<p>I whileløkken så sjekkes det om <span class="math notranslate nohighlight">\(\frac{f(x + h) - f(x)}{h}&gt;0\)</span>. Dette gjøres gjentattet ganger og <span class="math notranslate nohighlight">\(x\)</span> økes med <span class="math notranslate nohighlight">\(0.01\)</span> for hver iterasjon.</p>
+<p>I løkken sjekkes det for hver iterasjon om <span class="math notranslate nohighlight">\(\frac{\Delta y}{\Delta x} &gt; 0\)</span>. Når dette ikke er tilfellet lenger så avbrytes løkken. I praksis har man da funnet ut når stigningstallet, altså den deriverte, til funksjonen går fra positiv verdi til negativ eller null for første gang for <span class="math notranslate nohighlight">\(f(x)\)</span> når <span class="math notranslate nohighlight">\(x &gt; 0\)</span>. Altså har man funnet et toppunkt eller et terassepunkt for funksjonen.</p>
+<p>Oppgave b)
+For sjekke hva resultatet blir uten å kjøre programmet må vi derivere funksjonen <span class="math notranslate nohighlight">\(f(x)\)</span> og se når <span class="math notranslate nohighlight">\(f'(x)=0\)</span>.</p>
+<p>Vi setter <span class="math notranslate nohighlight">\(u = x\)</span> og <span class="math notranslate nohighlight">\(v=1+x^2\)</span> og får:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+    f'(x)&amp;=\frac{u'\cdot v- u \cdot v'}{v^2}\\
+    &amp;= \frac{1 \cdot (1+x^2) - x \cdot 2x}{(1+x^2)^2}\\
+    &amp;= \frac{1-x^2}{(1+x^2)^2}
+\end{align}
+\end{split}\]</div>
+<p>Løser vi <span class="math notranslate nohighlight">\(f'(x) = 0\)</span> ser vi at <span class="math notranslate nohighlight">\(x=1\)</span></p>
 </div>
 </div>
 
