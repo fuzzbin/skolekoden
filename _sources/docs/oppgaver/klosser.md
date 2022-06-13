@@ -12,14 +12,14 @@ Stigespillet er et brettspill hvor målet til spillerne er å komme seg fra star
 Hvor mange terningkast kan man forvente å bruke for å komme i mål på stigespillet?
 
 ## Forslag til aktiviteter og utforsking
-* Lag en simulator av stigespillet som er vist i bildet ovenfor, og kjør simuleringer for å finne ut hvor mange terningkast vi i gjennomsnitt må bruke for å komme i mål i dette spillet.
-* Vis fordelingen av terningkastene grafisk.
+* Hvor mange klosser er det i figur $n$
+* Hvor mange figurer kan man bygge hvis man ha $x$ klosser, og hvor mange blir til overs?
 * Kan du visualisere resultatene på flere måter?
-* Vurder hvor mange simuleringer som er nødvendig å kjøre for å gi sikre estimater for gjennomsnittlig antall kast for å komme i mål.
+* Kan du bruke flere metoder for å finne løsninger?
 
 ## Annet
 
 Hvis du syntes denne oppgavene var spennende, og vil lese mer om matematikken bak dette spillet kan du lese på bloggen og nettstedet [Datagenetics](http://www.datagenetics.com/blog/november12011/).
 
 ---
-_Denne oppgaven er laget av [fuzzbin](https://github.com/fuzzbin) og [bitjungle](https://github.com/bitjungle) etter en idé fra Henrik Kjønnerud (henrikk@vfk.no) på Greveskogen VGS som laget den opprinnelige oppgaven. Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.](http://creativecommons.org/licenses/by-sa/4.0/)_
+_Denne oppgaven er laget av [fuzzbin](https://github.com/fuzzbin) etter en idé fra eksamen i 1P våren 2022 der den opprinnelige oppgaven finnes. Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.](http://creativecommons.org/licenses/by-sa/4.0/)_
