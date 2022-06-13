@@ -7,10 +7,10 @@ Finn ut så mye som mulig ut i fra bildene
 
 ```{figure} ./img/klosser_figur.png
 ---
-height: 150px
+height: 500px
 name: directive-fig
 ---
-Here is my figure caption!
+Klosser
 ```
 
 ![klosser](./img/klosser_haug.webp)
