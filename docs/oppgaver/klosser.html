@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Utforskende oppgaver &#8212; Skolekoden</title>
+    <title>Klossene &#8212; Skolekoden</title>
     
   <link href="../../_static/css/theme.css" rel="stylesheet">
   <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -54,8 +54,8 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Stigespillet" href="stigespill.html" />
-    <link rel="prev" title="Velkommen til skolekoden" href="../intro.html" />
+    <link rel="next" title="Oppgaver i tre akter" href="tre_akter_index.html" />
+    <link rel="prev" title="Conway’s Game of Life" href="game_of_life.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -106,7 +106,7 @@
 </p>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active has-children">
-  <a class="current reference internal" href="#">
+  <a class="reference internal" href="oppgaveindex.html">
    Utforskende oppgaver
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
@@ -114,7 +114,7 @@
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
+  <ul class="current">
    <li class="toctree-l2">
     <a class="reference internal" href="stigespill.html">
      Stigespillet
@@ -125,8 +125,8 @@
      Conway’s Game of Life
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="klosser.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Klossene
     </a>
    </li>
@@ -329,7 +329,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/docs/oppgaver/oppgaveindex.md"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/docs/oppgaver/klosser.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -349,7 +349,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fdocs/oppgaver/oppgaveindex.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fdocs/oppgaver/klosser.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -376,8 +376,23 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#mer-om-oppgaver">
-   Mer om oppgaver
+  <a class="reference internal nav-link" href="#spillebrett-og-regler">
+   Spillebrett og regler
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#oppgave">
+   Oppgave
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#forslag-til-aktiviteter-og-utforsking">
+   Forslag til aktiviteter og utforsking
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#annet">
+   Annet
   </a>
  </li>
 </ul>
@@ -390,7 +405,7 @@
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Utforskende oppgaver</h1>
+                <h1>Klossene</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -401,8 +416,23 @@
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#mer-om-oppgaver">
-   Mer om oppgaver
+  <a class="reference internal nav-link" href="#spillebrett-og-regler">
+   Spillebrett og regler
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#oppgave">
+   Oppgave
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#forslag-til-aktiviteter-og-utforsking">
+   Forslag til aktiviteter og utforsking
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#annet">
+   Annet
   </a>
  </li>
 </ul>
@@ -414,14 +444,31 @@
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="utforskende-oppgaver">
-<h1>Utforskende oppgaver<a class="headerlink" href="#utforskende-oppgaver" title="Permalink to this headline">¶</a></h1>
-<p>Her finner du større oppgaver som er laget for å jobbe med utforsking og åpne problemstillinger. Oppgavene er godt egnet for å jobbe sammen i grupper eller som egne opplegg.</p>
-<div class="section" id="mer-om-oppgaver">
-<h2>Mer om oppgaver<a class="headerlink" href="#mer-om-oppgaver" title="Permalink to this headline">¶</a></h2>
-<p>Her kommer det mer tekst om oppgaver</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="klossene">
+<h1>Klossene<a class="headerlink" href="#klossene" title="Permalink to this headline">¶</a></h1>
+<p>Stigespillet er et brettspill hvor målet til spillerne er å komme seg fra start til slutt på spillebrettet først. Spillet foregår ved at man kaster en terning og flytter like mange felt frem som terningen viser. Fordelt rundt på spillebrettet er det en rekke «stiger» og “sklier”. Hvis spilleren havner på et slikt felt må man flytte et visst antall felter frem eller tilbake.</p>
+<div class="section" id="spillebrett-og-regler">
+<h2>Spillebrett og regler<a class="headerlink" href="#spillebrett-og-regler" title="Permalink to this headline">¶</a></h2>
+<p><img alt="klosser" src="../../_images/klosser.png" /></p>
 </div>
-<div class="toctree-wrapper compound">
+<div class="section" id="oppgave">
+<h2>Oppgave<a class="headerlink" href="#oppgave" title="Permalink to this headline">¶</a></h2>
+<p>Hvor mange terningkast kan man forvente å bruke for å komme i mål på stigespillet?</p>
+</div>
+<div class="section" id="forslag-til-aktiviteter-og-utforsking">
+<h2>Forslag til aktiviteter og utforsking<a class="headerlink" href="#forslag-til-aktiviteter-og-utforsking" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Lag en simulator av stigespillet som er vist i bildet ovenfor, og kjør simuleringer for å finne ut hvor mange terningkast vi i gjennomsnitt må bruke for å komme i mål i dette spillet.</p></li>
+<li><p>Vis fordelingen av terningkastene grafisk.</p></li>
+<li><p>Kan du visualisere resultatene på flere måter?</p></li>
+<li><p>Vurder hvor mange simuleringer som er nødvendig å kjøre for å gi sikre estimater for gjennomsnittlig antall kast for å komme i mål.</p></li>
+</ul>
+</div>
+<div class="section" id="annet">
+<h2>Annet<a class="headerlink" href="#annet" title="Permalink to this headline">¶</a></h2>
+<p>Hvis du syntes denne oppgavene var spennende, og vil lese mer om matematikken bak dette spillet kan du lese på bloggen og nettstedet <a class="reference external" href="http://www.datagenetics.com/blog/november12011/">Datagenetics</a>.</p>
+<hr class="docutils" />
+<p><em>Denne oppgaven er laget av <a class="reference external" href="https://github.com/fuzzbin">fuzzbin</a> og <a class="reference external" href="https://github.com/bitjungle">bitjungle</a> etter en idé fra Henrik Kjønnerud (<a class="reference external" href="mailto:henrikk&#37;&#52;&#48;vfk&#46;no">henrikk<span>&#64;</span>vfk<span>&#46;</span>no</a>) på Greveskogen VGS som laget den opprinnelige oppgaven. Oppgaven er lisensiert under en <a class="reference external" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.</a></em></p>
 </div>
 </div>
 
@@ -450,17 +497,17 @@
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="../intro.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="game_of_life.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Velkommen til skolekoden</p>
+            <p class="prev-next-title">Conway’s Game of Life</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="stigespill.html" title="next page">
+    <a class='right-next' id="next-link" href="tre_akter_index.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Stigespillet</p>
+        <p class="prev-next-title">Oppgaver i tre akter</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
