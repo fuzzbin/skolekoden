@@ -4,7 +4,8 @@ Stigespillet er et brettspill hvor målet til spillerne er å komme seg fra star
 
 ## Spillebrett og regler
 
-![klosser](./img/klosser.png)
+![klosser](./img/klosser_figur.png)
+![klosser](./img/klosser_haug.webp)
 
 
 ## Oppgave
