@@ -9,7 +9,7 @@ Dette er en fri og åpen ressurs med oppgaver og større undervisningsopplegg be
 Prosjektet ble startet høsten 2018 av [fuzzbin](https://github.com/fuzzbin) og [bitjungle](https://github.com/bitjungle), og er basert på tidligere arbeider i [fagstoff-prosjektet](https://github.com/fagstoff). Vinteren 2022 oppdateres og republiseres og samles innhold fra tidligere prosjekter her på [skolekoden](https://skolekoden.no) med [jupyterbook.org](https://jupyterbook.org/intro.html) som publiseringsteknologi.
 
 ## Lisens
-Alt innhold er lisensiert med [Creative Commons 4.0 - BY SA](https://creativecommons.org/licenses/by-sa/4.0/deed.no). Det betyr at du står fritt til å dele, publiser, endre, bearbeide og gjøre akkurat som du vil med innholdet så lenge du også deler det du gjør videre og informerer om hvor oppgavene er hentet fra.
+Alt innhold er lisensiert med [Creative Commons 4.0 - BY SA](https://creativecommons.org/licenses/by-sa/4.0/deed.no). Det betyr at du står fritt til å dele, publiser, endre, bearbeide og gjøre akkurat som du vil med innholdet så lenge du også deler det du gjør videre og informerer om hvor oppgavene er hentet fra..
 
 ## Slik kan du bidra
 Alle som ønsker det inviteres til å bidra. Dette kan både gjøres ved å legge inn forslag, tips, feilmeldinger, ønsker eller andre kommentarer under [issues](https://github.com/fagstoff/Skolekoden/issues). Du er også velkommen til å bidra med innhold. Les mer om hvordan du kan bidra med innholdsproduksjon under: [Slik kan du bidra](CONTRIBUTING.md). Alle bidrag og aktiviteter må følge våre [etiske retningslinjer (engelsk)](CODE_OF_CONDUCT.md)
