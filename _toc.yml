@@ -1,38 +1,41 @@
-# Table of content
-# Learn more at https://jupyterbook.org/customize/toc.html
-#
-
-- file: docs/intro
-
-- part: Pythonressurser
-  chapters:
-  - file: docs/pythonressurser/pythonindex
-    sections:
-      - file: docs/pythonressurser/helloWorld
-      - file: docs/pythonressurser/variabler
-      - file: docs/pythonressurser/kontrollstrukturer
-      - file: docs/pythonressurser/funksjoner
-      - file: docs/pythonressurser/moduler_og_biblioteker
-      - file: docs/pythonressurser/tegne_grafer
-      - file: docs/pythonressurser/kodekommentarer
-  - file: docs/pythonressurser/numeriskindex
-    sections:
-      - file: docs/pythonressurser/derivasjon
-      - file: docs/pythonressurser/integrasjon
-      - file: docs/pythonressurser/euler
-  - file: docs/pythonressurser/apiindex
-    sections:
-      - file: docs/pythonressurser/api_request
-
-- part: Oppgaver
+format: jb-book
+root: docs/intro
+parts:
+- caption: Oppgaver
   chapters:
   - file: docs/oppgaver/oppgaveindex
     sections:
-      - file: docs/oppgaver/stigespill
-      - file: docs/oppgaver/game_of_life
-      - file: docs/oppgaver/kjottboller
-
-- part: Om skolekoden
+    - file: docs/oppgaver/stigespill
+    - file: docs/oppgaver/game_of_life
+    - file: docs/oppgaver/klosser
+  - file: docs/oppgaver/tre_akter_index
+    sections:
+    - file: docs/oppgaver/kjottboller
+- caption: "Eksamensløsninger"
   chapters:
-    - file: docs/CONTRIBUTING
-    - file: docs/CODE_OF_CONDUCT
+  - file: docs/eksamen/eksamenindex
+    sections:
+    - file: docs/eksamen/R1_H21_Eksempel
+- caption: Pythonressurser
+  chapters:
+  - file: docs/pythonressurser/pythonindex
+    sections:
+    - file: docs/pythonressurser/helloWorld
+    - file: docs/pythonressurser/variabler
+    - file: docs/pythonressurser/kontrollstrukturer
+    - file: docs/pythonressurser/funksjoner
+    - file: docs/pythonressurser/moduler_og_biblioteker
+    - file: docs/pythonressurser/tegne_grafer
+    - file: docs/pythonressurser/kodekommentarer
+  - file: docs/pythonressurser/numeriskindex
+    sections:
+    - file: docs/pythonressurser/derivasjon
+    - file: docs/pythonressurser/integrasjon
+    - file: docs/pythonressurser/euler
+  - file: docs/pythonressurser/apiindex
+    sections:
+    - file: docs/pythonressurser/api_request
+- caption: Om skolekoden
+  chapters:
+  - file: docs/CONTRIBUTING
+  - file: docs/CODE_OF_CONDUCT
