@@ -516,7 +516,6 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="eulers-metode">
 <h1>Eulers metode<a class="headerlink" href="#eulers-metode" title="Permalink to this headline">#</a></h1>
-<p><strong>Creative Commons BY-SA : bitjungle (Rune Mathisen) og fuzzbin (Tom Jarle Christiansen)</strong></p>
 <p><strong><a class="reference external" href="https://en.wikipedia.org/wiki/Euler_method">Eulers metode</a> er en algoritme for å finne numeriske løsninger til <a class="reference external" href="https://en.wikipedia.org/wiki/Ordinary_differential_equation">ordinære differensialligninger</a>. I naturvitenskapen beskriver slike likninger som oftest en størrelse og endringen av denne størrelsen over tid. Eksempler på dette kan være populasjonsvekst i en bakteriekultur eller fartsendring til et objekt som faller i et gravitsjonsfelt. Eulers metode brukes for å finne <a class="reference external" href="https://no.wikipedia.org/wiki/Numerisk_analyse">numeriske løsninger</a>  på slike problemer når du kjenner en initialverdi.</strong></p>
 <p>Som et generelt utgangspunkt for Eulers metode antar vi at vi har en ordinær differensiallikning på formen:</p>
 <div class="math notranslate nohighlight">
@@ -575,7 +574,7 @@ $<span class="math notranslate nohighlight">\(y(2) = y(1) + \Delta t \cdot y(1) 
 </tr>
 </tbody>
 </table>
-<img alt="Opphavsmann: bitjungle Lisens: Creative Commons CC0" title="Opphavsmann: bitjungle Lisens: Creative Commons CC0" style="margin-left: 30px; width: 75%;" src="img/euler_illustrasjon_2.png">
+<img alt="Opphavsmann: bitjungle Lisens: Creative Commons CC0" title="Opphavsmann: bitjungle Lisens: Creative Commons CC0" style="margin-left: 30px; width: 75%;" src="./img/euler_illustrasjon_2.png">
 <p>I dette eksemplet har vi ikke sagt noe om hvordan funksjonen <span class="math notranslate nohighlight">\(y\)</span> ser ut, og normalt kjenner vi heller ikke denne. I dette tilfellet vet vi det, og vi har at <span class="math notranslate nohighlight">\(y\)</span> er eksponentialfunksjon <span class="math notranslate nohighlight">\(e^x\)</span>. Siden vi her kjenner den virkelige funksjonen, kan vi sammenlikne våre numeriske tilnærminger med de virkelige verdiene. Vi kjenner også startverdien <span class="math notranslate nohighlight">\(y_0\)</span>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -631,17 +630,7 @@ $<span class="math notranslate nohighlight">\(y(2) = y(1) + \Delta t \cdot y(1) 
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="nn">Input In [1],</span> in <span class="ni">&lt;cell line: 2&gt;</span><span class="nt">()</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># Importerer nødvendige biblioteker</span>
-<span class="ne">----&gt; </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="c1"># Initialbetingelser</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;matplotlib&#39;
-</pre></div>
-</div>
+<img alt="../../_images/euler_2_0.png" src="../../_images/euler_2_0.png" />
 </div>
 </div>
 <section id="oppsummering">
